@@ -16,5 +16,6 @@ const authRouter = Router();
 authRouter.post("/sign-in", signInValidation, applyValidations, signInCtrl);
 authRouter.post("/sign-up", signUpValidation, applyValidations, signUpCtrl);
 authRouter.get("/me", validateJwt, getMeCtrl);
+authRouter.get("/sign-out",);
 
 export { authRouter };

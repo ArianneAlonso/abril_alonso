@@ -10,3 +10,5 @@ export const signInValidation = [
   body("email").isEmail(),
   body("password").isLength({ min: 6 }),
 ];
+
+export const signoutValidation = [];

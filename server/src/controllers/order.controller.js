@@ -14,3 +14,11 @@ export const getOrdersCtrl = (_req, res) => {
 
   res.status(200).json(orders);
 };
+
+export const actualizarOrder = (req, res)=>{
+
+};
+
+export const deleteOrder =(req, res)=>{
+
+};
